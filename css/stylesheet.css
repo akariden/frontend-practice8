@@ -1,0 +1,61 @@
+html {
+  /* fit 1rem equal to 10px */
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.8rem; /* 16px */
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+header, footer, #top-container, #mid-container, #low-container, #btm-container {
+  width: 90%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+/******* header ***********/
+header {
+  display: flex;
+}
+
+/******* top-container ***********/
+
+#top-container {
+  display: flex;
+}
+
+/******* mid-container ***********/
+.features {
+  display: flex;
+}
+/******* low-container ***********/
+.apps-grid {
+  display: grid;
+}
+
+/******* btm-container ***********/
+
+/******* footer ***********/
+footer {
+  display: flex;
+}
+
+.menu-links {
+  display: flex;
+}
