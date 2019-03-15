@@ -9,67 +9,58 @@
   <title>Frontend Mentor | Landing page with detailed integrations section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <div class="top-bg-layer"><img src="images/bg-intro-desktop.svg" alt=""></div>
   <header>
-    <p><img src="images/logo.svg" alt="Fylo-logo"></p>
-    <p><a href="">Sign In</a></p>
-    <p><a href="">Sign Up</a></p>
-    <div class="top-bg-layer"><img src="" alt=""></div>
+    <p class="header-logo"><img src="images/logo.svg" alt="Fylo-logo"></p>
+    <p class="login-btn"><a href="">Sign In</a></p>
+    <p class="login-btn color-btn"><a href="">Sign Up</a></p>
   </header>
 
   <div id="top-container">
-    <div>
+    <div class="top-text">
       <h1>All your files in one secure location, accessible anywhere.</h1>
       <p>
         Fylo stores all your most important files in one secure location.
         Access them wherever you need, share and collaborate with friends,
         family and co-workers.
       </p>
-      <p><a href="">Get Started</a></p>
+      <div class="color-btn start-btn"><a href="">Get Started</a></div>
     </div>
-    <div>
+    <div class="top-image">
       <img src="images/illustration-main.svg" alt="image">
     </div>
   </div>
+  <div class="mid-bg-layer">
+    <div id="mid-container">
+      <div class="mid-text">
+        <h2>Stay productive, wherever you are</h2>
+        <P>
+          Never let location be an issue when accessing your files. Fylo has you
+          covered for all of your file storage needs.
+        </P>
+      </div>
 
-  <div id="mid-container">
-    <div class="mid-bg-layer"><img src="" alt=""></div>
-    <div>
-      <h2>Stay productive, wherever you are</h2>
-      <P>
-        Never let location be an issue when accessing your files. Fylo has you
-        covered for all of your file storage needs.
-      </P>
       <div class="features">
-        <div>
-          <div>
-            <p><img src="images/icon-devices.svg" alt="image"></p>
-            <p>All platforms, all devices, all your files</p>
-          </div>
+        <div class="feature-wrapper">
+          <p><img src="images/icon-devices.svg" alt="image"></p>
+          <p>All platforms, all devices, all your files</p>
         </div>
-        <div>
-          <div>
-            <p><img src="images/icon-security.svg" alt="image"></p>
-            <p>Security you can trust</p>
-          </div>
+        <div class="feature-wrapper">
+          <p><img src="images/icon-security.svg" alt="image"></p>
+          <p>Security you can trust</p>
         </div>
-        <div>
-          <div>
-            <p><img src="images/icon-collaboration.svg" alt="image"></p>
-            <p>Real-time collaboration</p>
-          </div>
+        <div class="feature-wrapper">
+          <p><img src="images/icon-collaboration.svg" alt="image"></p>
+          <p>Real-time collaboration</p>
         </div>
       </div>
     </div>
   </div>
 
   <div id="low-container">
-    <div>
+    <div class="apps-text">
       <h2>Connect with the apps you use everyday</h2>
       <p>
         Fylo seamlessly integrates with hundreds of apps, meaning you can access and
@@ -77,47 +68,65 @@
       </p>
     </div>
     <div class="apps-grid">
-      <div>
-        <p><img src="images/logo-slack.png" alt=""></p>
-        <p>Slack</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-        </p>
+
+      <div class="app-item slack">
+        <div class="logo-wrap"><img src="images/logo-slack.png" alt=""></div>
+        <div class="app-detail">
+          <p>Slack</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
+          </p>
+        </div>
       </div>
-      <div>
-        <p><img src="images/logo-gsuite.png" alt=""></p>
-        <p>GSuite</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-        </p>
+
+      <div class="app-item gsuite">
+        <div class="logo-wrap"><img src="images/logo-gsuite.png" alt=""></div>
+        <div class="app-detail">
+          <p>GSuite</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
+          </p>
+        </div>
       </div>
-      <div>
-        <p><img src="images/logo-trello.png" alt=""></p>
-        <p>Trello</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-        </p>
+
+      <div class="app-item trello">
+        <div class="logo-wrap"><img src="images/logo-trello.png" alt=""></div>
+        <div class="app-detail">
+            <p>Trello</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
+            </p>
+        </div>
       </div>
-      <div>
-        <p><img src="images/logo-asana.png" alt=""></p>
-        <p>Asana</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-        </p>
+
+      <div class="app-item asana">
+        <div class="logo-wrap"><img src="images/logo-asana.png" alt=""></div>
+        <div class="app-detail">
+          <p>Asana</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
+          </p>
+        </div>
       </div>
-      <div>
-        <p><img src="images/logo-salesforce.png" alt=""></p>
-        <p>Salesforce</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-        </p>
+
+      <div class="app-item salesforce">
+        <div class="logo-wrap"><img src="images/logo-salesforce.png" alt=""></div>
+        <div class="app-detail">
+          <p>Salesforce</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
+          </p>
+        </div>
       </div>
-      <div>
-        <p><img src="images/logo-typeform.png" alt=""></p>
-        <p>Typeform</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
-        </p>
+
+      <div class="app-item typeform">
+        <div class="logo-wrap"><img src="images/logo-typeform.png" alt=""></div>
+        <div class="app-detail">
+          <p>Typeform</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id varius eros, vel pharetra est.
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -128,28 +137,26 @@
       <p>  It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
         questions, our support team would be happy to help you.
       </p>
-      <p><a href="">Get Started</a></p>
+      <div class="color-btn start-btn"><a href="">Get Started</a></div>
     </div>
   </div>
 
-  <div>
+  <div class="footer-bg">
     <footer>
-      <div>
-        <img src="images/logo.svg" alt="Fylo-logo">
+      <div class="footer-logo-wrap">
+        <img src="images/logo2.svg" alt="Fylo-logo">
       </div>
-      <div>
+      <div class="contact-wrapper">
         <p>Receive updates from us, including tips and tricks on how to improve your workflow.</p>
-        <p>
-          <form action="">
-            <input type="email">
-            <button>Join</button>
-          </form>
-        </p>
-        <p>
+        <form action="">
+          <input type="email">
+          <button class="color-btn">Join</button>
+        </form>
+        <p class="contact">
           <img src="images/icon-phone.svg" alt="">
           Phone: +1-543-123-4567
         </p>
-        <p>
+        <p class="contact">
           <img src="images/icon-email.svg" alt="">
           example@fylo.com
         </p>
